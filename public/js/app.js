@@ -6,7 +6,7 @@ const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
 // messageOne.textContent = 'From JavaScript'
 
-weatherForm.addEventListener('submit', (event) => {
+weatherForm.addEventListener('submit', (e) => {
     e.preventDefault() //  sprečava podrazumevano ponašanje slanja forme koje bi inače osvežilo stranicu.
 
     const location = search.value
